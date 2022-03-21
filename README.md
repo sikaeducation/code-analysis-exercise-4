@@ -13,13 +13,15 @@ function (number){
   let reversedNumberArray = numberArray.reverse()
 
   let newArray = []
-  for (number in reversedNumberArray){
+  for (let number of reversedNumberArray){
     newArray.push(+number)
   }
 
   return newArray
 }
 ```
+
+Inputs and outputs should be valid JavaScript values!
 
 | Input | Output |
 | ----- | ------ |
